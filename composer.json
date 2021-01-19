@@ -1,0 +1,18 @@
+{
+    "name": "gioco-plus/sbo-contract",
+    "description": "sbo Interface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "q",
+            "email": "q.wong@goldenf.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GiocoPlus\\SBO\\": "src/"
+        }
+    },
+    "require": {}
+}
