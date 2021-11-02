@@ -16,7 +16,7 @@ interface SBOServiceInterface {
      * @param string $odd_type
      * @return mixed
      */
-    function gameLaunch(string $op_code, string $account, string $game_code, string $language, string $odd_type = '');
+    function gameLaunch(string $op_code, string $account, string $game_code, string $language, string $odd_type);
 
     /**
      * 遊戲詳情
